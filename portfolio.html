@@ -16,52 +16,47 @@
 
   <body class="body">
     <!--header-->
-    <header>
-      <nav>
-        <a clas href="/" class="Logo"> <span class="web">Web</span>Studio</a>
+   <!--header-->
+    <header class="header">
+        <div class="header-nav container">
+        <nav class="nav-page"><a clas href="/" class="logo"> <span class="web">Web</span>Studio</a>
 
         <ul class="site-nav">
-          <li><a href="index.html" class="link">Студия</a></li>
-          <li>
-            <a href="portfolio.html" class="link current-link">Портфолио</a>
-          </li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li class="nav-item"><a href="index.html" class="link current-link">Студия</a></li>
+          <li class="nav-item"><a href="portfolio.html" class="link">Портфолио</a></li>
+          <li class="nav-item"><a href="/" class="link">Контакты</a></li>
         </ul>
       </nav>
-
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts-mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contacts-tel">+38 096 111 11 11</a>
-        </li>
+   
+       <ul class="header-contact">
+        <li class="nav-item"><a href="mailto:info@devstudio.com" class="contacts-mail">info@devstudio.com</a></li>
+        <li class="nav-item"><a href="tel:+380961111111" class="contacts-tel">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
 
     <!-- main -->
     <main>
       <!-- section filter -->
-      <section>
-        <h1>ПОРТФОЛИО</h1>
-        <ul>
-          <li><button type="button" class="filter">Все</button></li>
-          <li><button type="button" class="filter">Веб-сайты</button></li>
-          <li><button type="button" class="filter">Приложения</button></li>
-          <li><button type="button" class="filter">Дизайн</button></li>
-          <li><button type="button" class="filter">Маркетинг</button></li>
+      <section class="portfolio">
+        <!-- <h1>ПОРТФОЛИО</h1> -->
+        <div class="container">
+        <ul class="port-link">
+          <li class="port-item"><button type="button" class="filter">Все</button></li>
+          <li class="port-item"><button type="button" class="filter">Веб-сайты</button></li>
+          <li class="port-item"><button type="button" class="filter">Приложения</button></li>
+          <li class="port-item"><button type="button" class="filter">Дизайн</button></li>
+          <li class="port-item"><button type="button" class="filter">Маркетинг</button></li>
         </ul>
 
-        <ul>
-          <li>
+        <ul class="flex-container">
+          <li class="flex-element">
             <img src="./images/techhryack.jpg" alt="технокряк" width="370" />
             <h2 class="filter-title">Технокряк</h2>
             <p class="filter-chapter">Веб-сайт</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img
               src="./images/poster.jpg"
               alt="New Orlean vs Golden Star"
@@ -71,31 +66,31 @@
             <p class="filter-chapter">Дизайн</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img src="./images/restoran.jpg" alt="Seafood" width="370" />
             <h2 class="filter-title">Ресторан Seafood</h2>
             <p class="filter-chapter">Приложение</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img src="./images/project 4.jpg" alt="Prime" width="370" />
             <h2 class="filter-title">Проект Prime</h2>
             <p class="filter-chapter">Маркетинг</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img src="./images/boxes.jpg" alt="Boxes" width="370" />
             <h2 class="filter-title">Проект Boxes</h2>
             <p class="filter-chapter">Приложение</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img src="./images/borders.jpg" alt="Borders" width="370" />
             <h2 class="filter-title">Inspiration has no Borders</h2>
             <p class="filter-chapter">Веб-сайт</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img
               src="./images/Limited Edition.jpg"
               alt="Limited Edition"
@@ -105,13 +100,13 @@
             <p class="filter-chapter">Дизайн</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img src="./images/LAB.jpg" alt="LAB" width="370" />
             <h2 class="filter-title">Проект LAB</h2>
             <p class="filter-chapter">Маркетинг</p>
           </li>
 
-          <li>
+          <li class="flex-element">
             <img
               src="./images/Growing Business.jpg"
               alt="Growing Business"
@@ -121,18 +116,18 @@
             <p class="filter-chapter">Приложение</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- footer -->
 
     <footer class="footer">
-      <a href="/" class="Logo"
-        ><span class="web">Web</span> <span class="studio">Studio</span></a
-      >
+        <div class="footer-logo container">
+      <a href="/" class="logo"></a><span class="web">Web</span> <span class="studio">Studio</span></a>
 
-      <address>
-        <ul>
+      <address class="box-address">
+        <ul class="list-address">
           <li><p class="address">г. Киев, пр-т Леси Украинки, 26</p></li>
           <li>
             <a href="mailto:info@example.com" class="mail">info@example.com</a>
@@ -140,6 +135,7 @@
           <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
