@@ -329,8 +329,6 @@ ul {
 .user-prof {
   font-family: var(--basic-font-family);
   color: var(--basiс-color);
-
-  /* padding-bottom: 30px; */
   text-align: center;
 
   font-size: 16px;
@@ -346,7 +344,6 @@ ul {
 }
 
 .footer-logo {
-  /* margin-bottom: 20px; */
   padding-top: 60px;
 }
 
@@ -458,11 +455,18 @@ ul {
   margin-right: 0px;
 }
 
+.filter-border {
+  margin: 0px;
+  padding: 20px 24px;
+
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
 .filter-title {
   font-family: var(--basic-font-family);
   color: var(--secondary-color);
   margin: 0px;
-  padding-top: 20px;
 
   font-weight: 700;
   font-size: 18px;
