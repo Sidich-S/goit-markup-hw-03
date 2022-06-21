@@ -456,7 +456,8 @@ element.style {
 .filter-title {
   font-family: var(--basic-font-family);
   color: var(--secondary-color);
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   font-weight: 700;
   font-size: 18px;
@@ -467,8 +468,9 @@ element.style {
 .filter-chapter {
   font-family: var(--basic-font-family);
   color: var(--basiс-color);
-  margin: 0px;
+
   margin-top: 4px;
+  margin-bottom: 0px;
 
   font-size: 16px;
   line-height: 1.8;
