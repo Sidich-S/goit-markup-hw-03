@@ -5,7 +5,6 @@
 .body {
   font-family: 'Roboto', 'sans-serif';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
 
@@ -29,18 +28,14 @@
 .header {
   display: flex;
   align-items: center;
-  width: 1600px;
 
-  border: none;
-  border-right: none;
   border-bottom: 1px solid #ececec;
   border-left: none;
 }
 
 .container {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 215px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -50,7 +45,6 @@
 .header-nav {
   display: inline-block;
   display: flex;
-  justify-content: space-around;
 }
 
 .nav-page {
@@ -79,6 +73,8 @@
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* site nav */
@@ -91,9 +87,7 @@ ul {
 
 .site-nav {
   display: flex;
-  margin-top: 32px;
   margin-left: 93px;
-  margin-bottom: 32px;
 }
 
 .site-nav .nav-item {
@@ -127,6 +121,9 @@ ul {
 
   font-weight: 500;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -138,6 +135,8 @@ ul {
 
   align-items: center;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-mail,
@@ -158,34 +157,25 @@ ul {
 .section-hero,
 .footer {
   background-color: var(--basiс-background-color);
-  width: 1600px;
 }
 
 .section-hero {
   text-align: center;
-  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .titel {
   font-family: var(--basic-font-family);
   color: var(--final-color);
 
-  margin-top: 0px;
+  margin: 0px auto;
   margin-bottom: 30px;
-  padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-}
-
-.box-button {
-  padding-right: 700px;
-  padding-bottom: 200px;
-  padding-left: 700px;
 }
 
 .button {
@@ -195,8 +185,8 @@ ul {
   padding: 10px 32px;
 
   cursor: pointer;
-  display: flex;
-
+  border: none;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -204,8 +194,7 @@ ul {
 
 /* section advantage */
 
-.advantage {
-  width: 1600px;
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -245,6 +234,10 @@ ul {
 }
 
 /* section work and team */
+.work {
+  padding-top: 0px;
+}
+
 .item {
   margin-right: 30px;
 }
@@ -267,11 +260,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.section-work {
-  width: 1600px;
-  padding-bottom: 94px;
-}
-
 .title-work {
   text-align: center;
   margin-bottom: 50px;
@@ -280,35 +268,37 @@ ul {
 .list-work {
   display: inline-block;
   display: flex;
-  justify-content: space-around;
+}
 
-  margin: 0px;
-  padding: 0px;
+element.style {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .section-team {
   background-color: var(--secondary-background-color);
-  width: 1600px;
-  padding-bottom: 94px;
 }
 
 .title-team {
   text-align: center;
-  padding-top: 94px;
-  margin-top: 0px;
+  margin: 0px;
   margin-bottom: 50px;
 }
 
 .list-team {
   display: inline-block;
   display: flex;
-  justify-content: space-around;
-
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-  padding-left: 0px;
 }
+
+.item-team {
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .img-team {
   margin-bottom: 30px;
 }
@@ -317,6 +307,7 @@ ul {
   font-family: var(--basic-font-family);
   color: var(--secondary-color);
 
+  margin: 0px;
   margin-bottom: 10px;
   text-align: center;
 
@@ -330,6 +321,8 @@ ul {
   font-family: var(--basic-font-family);
   color: var(--basiс-color);
   text-align: center;
+  margin: 0px;
+  margin-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -339,7 +332,6 @@ ul {
 /* footer */
 
 .footer {
-  width: 1600px;
   padding-bottom: 60px;
 }
 
@@ -408,6 +400,9 @@ ul {
 
 .port-item {
   margin-right: 30px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .port-item:last-child {
@@ -421,6 +416,8 @@ ul {
 
   border: none;
   cursor: pointer;
+
+  padding: 6px 22px;
 
   font-weight: 500;
   font-size: 16px;
@@ -436,13 +433,6 @@ ul {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 15px;
-  padding-bottom: 94px;
-  padding-right: 15px;
-  width: 1200px;
 }
 
 .flex-element {
@@ -478,7 +468,7 @@ ul {
   font-family: var(--basic-font-family);
   color: var(--basiс-color);
   margin: 0px;
-  padding-top: 4px;
+  margin-top: 4px;
 
   font-size: 16px;
   line-height: 1.8;
