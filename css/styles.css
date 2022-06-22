@@ -188,6 +188,7 @@ ul {
   border: none;
   border-radius: 4px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -332,11 +333,8 @@ element.style {
 /* footer */
 
 .footer {
-  padding-bottom: 60px;
-}
-
-.footer-logo {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .studio {
@@ -349,10 +347,7 @@ element.style {
 }
 
 .list-address {
-  margin: 0px;
   margin-top: 20px;
-  padding: 0px;
-  width: 231px;
 }
 
 .address {
@@ -399,9 +394,7 @@ element.style {
 }
 
 .port-item {
-  margin-right: 30px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  margin-right: 8px;
   border-radius: 4px;
 }
 
@@ -433,6 +426,8 @@ element.style {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .flex-element {
